@@ -12,14 +12,21 @@
 
 <body>
     <header class="header">
-        <a href="#" class="header__logo">Wanderlust</a>
+  <a href="#" class="header__logo">Wanderlust</a>
 
-        <button class="header__menu-btn" aria-label="Open menu" aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </header>
+  <nav class="nav" id="main-nav" aria-label="Main navigation">
+    <ul class="nav__list">
+      <li><a href="#" class="nav__link">Home</a></li>
+      <li><a href="#destinations" class="nav__link">Destinations</a></li>
+    </ul>
+  </nav>
+
+  <button class="header__menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</header>
     <main>
         <section class="hero">
             <h1 class="hero__title">Welcome to Dream Travel</h1>
