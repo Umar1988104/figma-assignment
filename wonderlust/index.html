@@ -1,61 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wanderlust</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header class="header">
-  <a href="#" class="header__logo">Wanderlust</a>
+    <header class="header">
+        <a href="#" class="header__logo">Wanderlust</a>
 
-  <button class="header__menu-btn" aria-label="Open menu" aria-expanded="false">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-</header>
-<main>
-  <section class="hero">
-    <h1 class="hero__title">Welcome to Dream Travel</h1>
-    <p class="hero__text">
-      Find your next adventure here. Explore pristine beaches, towering
-      mountains, and vibrant cities with our curated travel experiences.
-    </p>
-    <a href="#destinations" class="btn btn--primary">
-      Book Now <span aria-hidden="true">→</span>
-    </a>
-  </section>
-  <section class="destinations" id="destinations">
-  <h2 class="section-title">Featured Destinations</h2>
-  <p class="section-subtitle">
-    Discover our most popular travel spots curated just for you.
-  </p>
+        <button class="header__menu-btn" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="hero__title">Welcome to Dream Travel</h1>
+            <p class="hero__text">
+                Find your next adventure here. Explore pristine beaches, towering
+                mountains, and vibrant cities with our curated travel experiences.
+            </p>
+            <a href="#destinations" class="btn btn--primary">
+                Book Now <span aria-hidden="true">→</span>
+            </a>
+        </section>
+        <section class="destinations" id="destinations">
+            <h2 class="section-title">Featured Destinations</h2>
+            <p class="section-subtitle">
+                Discover our most popular travel spots curated just for you.
+            </p>
 
-  <div class="destinations__list">
-    <article class="card">
-      <div class="card__image-wrap">
-        <img
-          class="card__image"
-          src="images/maldives.jpg"
-          alt="Overwater villas above turquoise water in the Maldives"
-        >
-        <span class="card__price">From $1,299</span>
-      </div>
-      <div class="card__body">
-        <h3 class="card__title">Maldives</h3>
-        <p class="card__text">
-          Experience ultimate luxury in crystal clear waters and pristine
-          white sand beaches.
-        </p>
-        <a href="#" class="btn btn--accent">Learn More</a>
-      </div>
-    </article>
-  </div>
-</section>
-</main>
+            <div class="destinations__list">
+                <article class="card">
+                    <div class="card__image-wrap">
+                        <img class="card__image" src="images/maldives.jpg"
+                            alt="Overwater villas above turquoise water in the Maldives">
+                        <span class="card__price">From $1,299</span>
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__title">Maldives</h3>
+                        <p class="card__text">
+                            Experience ultimate luxury in crystal clear waters and pristine
+                            white sand beaches.
+                        </p>
+                        <a href="#" class="btn btn--accent">Learn More</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__image-wrap">
+                        <img class="card__image" src="images/swiss-alps.jpg"
+                            alt="Snow-covered mountain peaks and a wooden chalet in the Swiss Alps">
+                        <span class="card__price">From $899</span>
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__title">Swiss Alps</h3>
+                        <p class="card__text">
+                            Hit the slopes or relax in a cozy chalet with breathtaking
+                            mountain views.
+                        </p>
+                        <a href="#" class="btn btn--accent">Learn More</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__image-wrap">
+                        <img class="card__image" src="images/safari.jpg"
+                            alt="Elephants walking across the savanna at sunset">
+                        <span class="card__price">From $1,499</span>
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__title">Safari Adventure</h3>
+                        <p class="card__text">
+                            Witness extraordinary wildlife in their natural habitat across
+                            vast plains.
+                        </p>
+                        <a href="#" class="btn btn--accent">Learn More</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card__image-wrap">
+                        <img class="card__image" src="images/tokyo.jpg"
+                            alt="A busy Tokyo street lit up with neon signs at night">
+                        <span class="card__price">From $1,599</span>
+                    </div>
+                    <div class="card__body">
+                        <h3 class="card__title">Tokyo City</h3>
+                        <p class="card__text">
+                            Immerse yourself in a vibrant metropolis where tradition meets
+                            cutting-edge technology.
+                        </p>
+                        <a href="#" class="btn btn--accent">Learn More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
