@@ -12,22 +12,28 @@
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <header class="navbar">
-    <div class="container navbar__inner">
-      <a href="#" class="navbar__logo" aria-label="Rayan Adirdard, home">
-        <span class="navbar__dot" aria-hidden="true"></span>
-        <span class="navbar__dot" aria-hidden="true"></span>
-      </a>
+  <div class="container navbar__inner">
+    <a href="#" class="navbar__logo" aria-label="Rayan Adirdard, home">
+      <span class="navbar__dot" aria-hidden="true"></span>
+      <span class="navbar__dot" aria-hidden="true"></span>
+    </a>
 
-      <nav aria-label="Main navigation">
-        <ul class="navbar__list">
-          <li><a href="#" class="navbar__link navbar__link--active" aria-current="page">Home</a></li>
-          <li><a href="#portfolio" class="navbar__link">Portfolio</a></li>
-          <li><a href="#recommendations" class="navbar__link">Recommendations</a></li>
-          <li><a href="#contact" class="navbar__link">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <button class="navbar__menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar__nav" id="site-nav" aria-label="Main navigation">
+      <ul class="navbar__list">
+        <li><a href="#" class="navbar__link navbar__link--active" aria-current="page">Home</a></li>
+        <li><a href="#portfolio" class="navbar__link">Portfolio</a></li>
+        <li><a href="#recommendations" class="navbar__link">Recommendations</a></li>
+        <li><a href="#contact" class="navbar__link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
   <main id="main-content">
     <section class="hero">
