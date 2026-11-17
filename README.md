@@ -3,7 +3,7 @@
 Two responsive web pages built from Figma designs using plain HTML, CSS and
 JavaScript, written by hand for the Frontend Engineering Assignment.
 
-- **Wanderlust:** a travel landing page with a hero, a responsive grid of
+- **Travelingo:** a travel landing page with a hero, a responsive grid of
   destination cards and a mobile hamburger menu.
 - **Developer Portfolio:** a portfolio page with a project grid, a
   Recommendations carousel with highlighted active dots, a contact form and a
@@ -11,8 +11,8 @@ JavaScript, written by hand for the Frontend Engineering Assignment.
 
 ## Live Demo
 
-- Wanderlust: https://YOUR-USERNAME.github.io/figma-assignment/wonderlust/
-- Developer Portfolio: https://YOUR-USERNAME.github.io/figma-assignment/portfolio/
+- Wanderlust: https://umar1988104.github.io/figma-assignment/wonderlust/
+- Developer Portfolio: https://umar1988104.github.io/figma-assignment/portfolio/
 
 ## Tech Stack
 
@@ -52,7 +52,7 @@ figma-assignment/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/figma-assignment.git
+   git clone https://github.com/Umar1988104/figma-assignment.git
    cd figma-assignment
    ```
 2. Open either page in a browser:
@@ -66,9 +66,9 @@ No build step or dependencies are needed.
 
 ## Design Sources
 
-- Wanderlust: Figma prototype provided in the assignment
+- Travelingo: Figma prototype provided in the assignment
 - Developer Portfolio: JTG Frontend Home Assignment, Set 3
 
 ## Author
 
-Your Name
+Mohammad Umar Sikandri
